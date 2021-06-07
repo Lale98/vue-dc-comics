@@ -77,7 +77,7 @@ export default {
 
 <style lang="scss" scoped>
 
-    $colorBlue : blue;
+    $colorBlue : #0282F9;
 
     nav {
         height: 100px;
