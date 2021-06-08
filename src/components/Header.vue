@@ -14,6 +14,7 @@
 </template>
 
 <script>
+
 export default {
     name : "Header",
     data : function () {
@@ -76,9 +77,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
     $colorBlue : #0282F9;
-
+    
+    
     nav {
         height: 100px;
         display: flex;
@@ -89,6 +90,8 @@ export default {
             height: 100%;
             display: flex;
             align-items: center;
+
+
         }
 
         img {
@@ -105,11 +108,13 @@ export default {
             margin : 0 10px;
             font-size: 14px;
             cursor: pointer;
+            font-weight: 500;
             border-bottom: 4px solid white;
 
 
             &:hover {
                 border-bottom: 4px solid $colorBlue;
+                color: $colorBlue;
             }
         }
     }
@@ -117,6 +122,7 @@ export default {
     .active {
         color: $colorBlue;
         border-color: $colorBlue;
+        font-weight: 500;
     }
 
 </style>

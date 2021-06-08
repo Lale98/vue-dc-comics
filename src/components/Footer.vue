@@ -106,10 +106,11 @@ export default {
     }
     #logo-footer {
         position: absolute;
-        top: -32%;
+        top: -48%;
         right: 0;
     }
     h2 {
+        font-size: 20px;
         margin: 20px 0;
     }
     ul {
@@ -118,6 +119,12 @@ export default {
         li {
             opacity: 0.5;
             margin: 5px 0;
+            font-size: 12px;
+
+            &:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
         }
     }
     .container {
@@ -139,11 +146,16 @@ export default {
         h3 {
             color: $colorBlue;
             margin-right: 20px;
+            cursor: pointer;
         }
 
         li {
             display: inline-block;
             margin: 0 10px;
+
+            &:hover {
+                filter: brightness(100);
+            }
         }
         .container{
             display: flex;
